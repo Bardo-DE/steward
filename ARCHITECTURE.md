@@ -13,7 +13,7 @@ This cut only moves code. Crate names are porter's; renames and carving into the
 ## 1. Crates and allowed edges
 
 The edge rule: **steward depends on porter by git rev; porter never depends on steward.** Every
-`porter-*` crate that is not in the table is porter's, taken from `https://github.com/PoHsuanLai/porter`
+`porter-*` crate that is not in the table is porter's, taken from `https://github.com/Bardo-DE/porter`
 at the one `rev` in the root `Cargo.toml` (`[workspace.dependencies]`). Stoker's crates and quire's
 `ds-settings` are git dependencies at their pinned revs in the same block.
 
@@ -142,7 +142,7 @@ annotated sample configuration). One `Open` is:
 
 ## 4. Caller identity (peephole)
 
-`porter-callers::ProcCallers` identifies a bus sender with [peephole](https://github.com/PoHsuanLai/peephole)
+`porter-callers::ProcCallers` identifies a bus sender with [peephole](https://github.com/Bardo-DE/peephole)
 (`BusPeers`, by git tag, never by path): the sender's process is held by pidfd, `/proc` and the user
 manager state what it is, and `judge` returns a `Standing`. `standing.rs` turns the standing into a
 `Caller`; `translate.rs` turns porter's table into peephole's.

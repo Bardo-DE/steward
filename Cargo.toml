@@ -19,7 +19,7 @@ edition = "2024"
 license = "MIT OR Apache-2.0"
 # What quire declares; the toolchain itself is pinned in rust-toolchain.toml.
 rust-version = "1.92"
-repository = "https://github.com/PoHsuanLai/steward"
+repository = "https://github.com/Bardo-DE/steward"
 publish = false
 
 [workspace.dependencies]
@@ -37,33 +37,33 @@ inferd-probe = { path = "crates/inferd-probe" }
 
 # porter's crates, by git at one rev (the placeholder is filled when the cut is gated). steward
 # depends on porter; porter never depends on steward.
-porter-callers = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-capability = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-client = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-client-dbus = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-core = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-daemon = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709", default-features = false }
-porter-dbus = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-dbus-macros = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-fake = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-fake-servers = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-rig = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-fs = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-http = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-http-reqwest = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-ids = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-match = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-provider = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-secrets = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-settings = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-store = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-tailscale = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-porter-wire = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
-test-kit = { git = "https://github.com/PoHsuanLai/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-callers = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-capability = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-client = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-client-dbus = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-core = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-daemon = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709", default-features = false }
+porter-dbus = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-dbus-macros = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-fake = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-fake-servers = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-rig = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-fs = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-http = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-http-reqwest = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-ids = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-match = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-provider = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-secrets = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-settings = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-store = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-tailscale = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+porter-wire = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
+test-kit = { git = "https://github.com/Bardo-DE/porter", rev = "f406782b90b67f62f0f14ec5e78aec8992b5d709" }
 
 # quire's live settings modules (`org.quire.SettingsModule1`), by git at quire's pinned rev; `live`
 # is the module, `tokio` drives its zbus.
-ds-settings = { git = "https://github.com/PoHsuanLai/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767", features = ["live", "tokio"] }
+ds-settings = { git = "https://github.com/Bardo-DE/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767", features = ["live", "tokio"] }
 
 # stoker's crates, by git at stoker's pinned rev. stoker has no porter dependency, so there is no
 # cycle. inferd is the one place porter's types and stoker's meet. `model-http` carries the reqwest
@@ -71,24 +71,24 @@ ds-settings = { git = "https://github.com/PoHsuanLai/quire.git", rev = "d17e19da
 # features hold stoker's scripted fakes of the supervisor's seams. `model-wire` is the
 # codec-over-transport `Driver`: inferd's TLS transport to a cloud model is a `model_http::Transport`
 # of its own, so it names the driver that takes one.
-cua-action = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-cua-parse = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-cua-session = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-cua-vendors = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-engine-manifest = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-engine-probe = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-engine-spec = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-engine-supervisor = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-model-catalog = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-model-extract = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-model-http = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-model-openai-compat = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-model-provider = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-model-replay = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-model-wire = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-speech-host-client = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-speech-provider = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
-vision-prep = { git = "https://github.com/PoHsuanLai/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+cua-action = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+cua-parse = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+cua-session = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+cua-vendors = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+engine-manifest = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+engine-probe = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+engine-spec = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+engine-supervisor = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+model-catalog = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+model-extract = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+model-http = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+model-openai-compat = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+model-provider = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+model-replay = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+model-wire = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+speech-host-client = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+speech-provider = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
+vision-prep = { git = "https://github.com/Bardo-DE/stoker", rev = "98621a2f3730ea1c3e0b8abce00f8e4fe91fe7d7" }
 
 # From quire's pinned block (`docs/workspace-deps.toml`), copied verbatim, only the lines the
 # crates here name.
@@ -127,3 +127,25 @@ missing_debug_implementations = "warn"
 # it is most of what a test link carries.
 [profile.dev.package."*"]
 debug = false
+
+# porter's pinned rev still names quire, chordkit and peephole by their old PoHsuanLai URLs. These
+# patches read those as the same revs at github.com/Bardo-DE, so steward and porter share one quire
+# (ds-settings types cross between them) and nothing is fetched through the old URLs. Delete the
+# block when steward's porter pin moves to a rev that names Bardo-DE itself.
+[patch."https://github.com/PoHsuanLai/quire"]
+ds-behaviour = { git = "https://github.com/Bardo-DE/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767" }
+ds-core = { git = "https://github.com/Bardo-DE/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767" }
+ds-core-derive = { git = "https://github.com/Bardo-DE/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767" }
+ds-helpers = { git = "https://github.com/Bardo-DE/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767" }
+ds-peer = { git = "https://github.com/Bardo-DE/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767" }
+ds-settings = { git = "https://github.com/Bardo-DE/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767" }
+ds-settings-derive = { git = "https://github.com/Bardo-DE/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767" }
+ds-style = { git = "https://github.com/Bardo-DE/quire.git", rev = "d17e19da64c8845d8eb413784b2d84f177a86767" }
+
+[patch."https://github.com/PoHsuanLai/chordkit"]
+chordkit = { git = "https://github.com/Bardo-DE/chordkit.git", rev = "99eec9ddd03ee345b669fcc7954ed44590724290" }
+
+[patch."https://github.com/PoHsuanLai/peephole"]
+peephole = { git = "https://github.com/Bardo-DE/peephole", tag = "v0.1.11" }
+peephole-core = { git = "https://github.com/Bardo-DE/peephole", tag = "v0.1.11" }
+peephole-bus = { git = "https://github.com/Bardo-DE/peephole", tag = "v0.1.11" }

@@ -5,7 +5,7 @@ this computer, on another of your computers (if you allow it) or one you have an
 the limits you set (what may leave the machine, how much it may spend). Apps ask for what they need
 ("a chat model that reads images"), never for a brand, and never see a key.
 
-Status: cut from [porter](https://github.com/PoHsuanLai/porter) at `e9e7cdcd`; see
+Status: cut from [porter](https://github.com/Bardo-DE/porter) at `e9e7cdcd`; see
 [CHANGELOG.md](CHANGELOG.md). The crates keep porter's names for now.
 
 ## What is here
