@@ -1,4 +1,4 @@
-//! The crate's integration tests: one executable, one module per topic (CONVENTIONS.md, Tests).
+//! The crate's integration tests: one executable, one module per topic.
 //! Modules that need a feature carry it here; the ones that start the daemon build only on Linux,
 //! where the daemon's dev-dependencies are (Cargo.toml). `connect` starts this executable again as
 //! a fake child, by test path.

@@ -1,4 +1,4 @@
-//! The crate's integration tests: one executable, one module per topic (CONVENTIONS.md, Tests).
+//! The crate's integration tests: one executable, one module per topic.
 //! `attached`, `engine_group`, `engine_start` and `shutdown` start this test executable again as
 //! a fake child, by test path (`shutdown::fake_inferd`).
 
